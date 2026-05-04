@@ -223,7 +223,7 @@ if user_question:
         st.error("Please enter OpenAI API key.")
 
     else:
-        with st.spinner("Retreving context and generating answer..."):
+        with st.spinner("Retrieving context and generating answer..."):
 
             try:
                 if "chat_history" not in st.session_state:
